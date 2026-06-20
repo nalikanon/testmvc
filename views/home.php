@@ -4,7 +4,7 @@
  if (!empty($users)) {
     echo "<ul>";
      foreach ($users as $user ) {
-         echo "<li>". htmlspecialchars($user['firstname'] ." ".$user['lastname']." ".$user['position']) . "</li>";
+         echo "<li>". htmlspecialchars($user['firstname'] ." ".$user['position']) . "</li>";
      }
      echo "</ul>";
  } else {
